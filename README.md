@@ -1,51 +1,59 @@
-# Alura - Imersão back-end
+# Projeto de Feed de Mídia Social Estilo Instagram
 
-Este é o repositório do front-end do projeto.
+## Descrição do Projeto
+
+Este projeto é uma aplicação web front-end que simula um feed de mídia social, semelhante ao Instagram. A aplicação exibe uma lista de postagens, cada uma com uma imagem, nome de usuário, legenda e interações do usuário, como curtidas e comentários. O projeto foi desenvolvido como um exercício para demonstrar as habilidades de desenvolvimento front-end na criação de uma interface de usuário dinâmica e interativa.
+
+## Tecnologias Utilizadas
+
+As seguintes tecnologias foram utilizadas no desenvolvimento deste projeto:
+
+- **HTML5:** Para a estruturação semântica da aplicação.
+- **CSS3:** Para a estilização e o layout da interface do usuário.
+- **JavaScript (ES6+):** Para a lógica de programação, manipulação do DOM e interatividade do usuário.
+- **Node.js:** Como ambiente de tempo de execução para as ferramentas de desenvolvimento.
+- **Parcel:** Como um empacotador de módulos de aplicação web, utilizado para o desenvolvimento e o build do projeto.
+
+## Proposta
+
+A proposta deste projeto é aplicar os conceitos fundamentais do desenvolvimento web front-end para criar uma aplicação de página única (SPA) que seja funcional e visualmente agradável. O projeto se concentra na renderização de dados (mockados ou de uma API) em uma interface de usuário e na implementação de interações do usuário em tempo real.
+
+## Objetivo
+
+O principal objetivo deste projeto é demonstrar a proficiência nas tecnologias front-end mencionadas acima. Os objetivos específicos incluem:
+
+- Criar um layout responsivo que se adapte a diferentes tamanhos de tela.
+- Manipular o DOM com JavaScript para criar, atualizar e remover elementos dinamicamente.
+- Utilizar JavaScript assíncrono para buscar dados de uma API (simulada ou real).
+- Implementar recursos de interatividade do usuário, como curtir e comentar postagens.
+- Utilizar um empacotador de módulos (Parcel) para otimizar o processo de desenvolvimento e o build para produção.
+
+## Instalação e Execução
 
 **IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
 
-## PASSO 1: Baixe o código do projeto:
+### PASSO 1: Baixe o código do projeto:
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
+Clone o repositório para o seu computador:
 
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
-
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
-
-### Opção 2 - Baixando um arquivo .zip
-
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
-
-
-## PASSO 2: Instale o projeto:
-
-### Opção 1 - Utilizando o terminal do Visual Studio Code
-
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
-
-### Opção 2 - Utilizando outros terminais
-
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
-
-## PASSO 3: Execute o projeto para subir o servidor local:
-
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
-
-```
-> dev
-> npx parcel --port 8000 index.html
-
-Server running at http://localhost:8000
-✨ Built in xxxms
+```bash
+git clone <endereço remoto>
 ```
 
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
+### PASSO 2: Instale as dependências do projeto:
+
+Navegue até a pasta do projeto e execute o comando:
+
+```bash
+npm install
+```
+
+### PASSO 3: Execute o projeto:
+
+Para iniciar o servidor de desenvolvimento, execute o comando:
+
+```bash
+npm run dev
+```
+
+O projeto estará disponível no endereço http://localhost:8000.
